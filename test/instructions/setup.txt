@@ -1,0 +1,25 @@
+Getting set up,
+
+Install Node.JS (installer for windows):
+https://nodejs.org/en/
+
+Download a minified version of Angular - 1.5.x (stable):
+https://angularjs.org/
+
+^ notice we copied it to ./app/vendor
+
+To check we have installed node properly from installer:
+node -v
+npm -v
+
+Initialize the project (within project root: test) with:
+npm init
+
+Install express server (to use as test server):
+npm install express --save-dev
+
+Install gulp:
+npm install gulp --save-dev
+
+Run express server (within project root: test):
+node ./server.js
