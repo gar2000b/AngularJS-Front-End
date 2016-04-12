@@ -2,7 +2,7 @@ angular.module('myApp')
 .controller('urlController', function ($interval, $scope, urlService){
 	console.log("urlController");
 
-	 var url = "getURLs";
+	 var url = "/simple-service-webapp/webapi/myresource/getURLs";
 	   // $http.get(url).success( function(response) {
 	   //     $scope.urls = response;
 	   //  });
